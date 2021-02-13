@@ -4,6 +4,7 @@
 // using the reducer, and call the render function.
 let store = createStore(candyReducer);
 store.dispatch({type: '@@INIT'})
+
 function createStore(){
   let state;
 
